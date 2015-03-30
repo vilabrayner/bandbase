@@ -1,0 +1,24 @@
+[23-Mar-2015 17:28:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/villa047/public_html/bandbase/storage/framework/views/c110457449c6a738d009eb418d115c0a on line 28
+[23-Mar-2015 19:13:13 UTC] PHP Parse error:  syntax error, unexpected 'app' (T_STRING), expecting ',' or ';' in /home/villa047/public_html/bandbase/storage/framework/views/c110457449c6a738d009eb418d115c0a on line 35
+[23-Mar-2015 20:03:24 UTC] PHP Fatal error:  Class 'Illuminate\Html\HtmlServiceProvider' not found in /home/villa047/public_html/bandbase/vendor/compiled.php on line 6466
+[23-Mar-2015 20:05:05 UTC] PHP Fatal error:  Class 'Illuminate\Html\HtmlServiceProvider' not found in /home/villa047/public_html/bandbase/vendor/compiled.php on line 6466
+[23-Mar-2015 20:05:08 UTC] PHP Fatal error:  Class 'Illuminate\Html\HtmlServiceProvider' not found in /home/villa047/public_html/bandbase/vendor/compiled.php on line 6466
+[23-Mar-2015 20:10:49 UTC] PHP Fatal error:  Class 'Illuminate\Html\HtmlServiceProvider' not found in /home/villa047/public_html/bandbase/vendor/compiled.php on line 6466
+[24-Mar-2015 02:33:21 UTC] PHP Fatal error:  Class 'User' not found in /home/villa047/public_html/bandbase/storage/framework/views/9eeb95ce644196366a87ae9ccc2bafc7 on line 11
+[24-Mar-2015 02:33:56 UTC] PHP Fatal error:  Class 'User' not found in /home/villa047/public_html/bandbase/storage/framework/views/9eeb95ce644196366a87ae9ccc2bafc7 on line 13
+[24-Mar-2015 02:38:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/villa047/public_html/bandbase/storage/framework/views/9eeb95ce644196366a87ae9ccc2bafc7 on line 20
+[24-Mar-2015 02:38:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/villa047/public_html/bandbase/storage/framework/views/9eeb95ce644196366a87ae9ccc2bafc7 on line 20
+[24-Mar-2015 02:38:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/villa047/public_html/bandbase/storage/framework/views/9eeb95ce644196366a87ae9ccc2bafc7 on line 20
+[24-Mar-2015 02:38:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/villa047/public_html/bandbase/storage/framework/views/9eeb95ce644196366a87ae9ccc2bafc7 on line 20
+[24-Mar-2015 02:40:31 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/villa047/public_html/bandbase/storage/framework/views/9eeb95ce644196366a87ae9ccc2bafc7 on line 9
+[24-Mar-2015 03:45:21 UTC] PHP Fatal error:  Class 'App\Http\Controllers\DB' not found in /home/villa047/public_html/bandbase/app/Http/Controllers/BandaController.php on line 46
+[24-Mar-2015 03:49:48 UTC] PHP Fatal error:  Class 'App\Http\Controllers\View' not found in /home/villa047/public_html/bandbase/app/Http/Controllers/BandaController.php on line 49
+[24-Mar-2015 14:32:38 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/villa047/public_html/bandbase/storage/framework/views/c01db8e6c2e856bfc5c4c5e2904d3501 on line 4
+[25-Mar-2015 21:12:34 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/villa047/public_html/bandbase/storage/framework/views/9eeb95ce644196366a87ae9ccc2bafc7 on line 9
+[25-Mar-2015 21:16:55 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Auth' not found in /home/villa047/public_html/bandbase/app/Http/Controllers/BandaController.php on line 51
+[25-Mar-2015 21:17:52 UTC] PHP Fatal error:  Class 'Illuminate\Auth' not found in /home/villa047/public_html/bandbase/app/Http/Controllers/BandaController.php on line 52
+[25-Mar-2015 21:46:28 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Auth' not found in /home/villa047/public_html/bandbase/app/Http/Controllers/BandaController.php on line 51
+[25-Mar-2015 21:48:22 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Auth' not found in /home/villa047/public_html/bandbase/app/Http/Controllers/BandaController.php on line 51
+[26-Mar-2015 10:50:46 UTC] PHP Fatal error:  Class 'User' not found in /home/villa047/public_html/bandbase/storage/framework/views/f6cc650abac791dac560019f170c4ae5 on line 37
+[26-Mar-2015 10:51:06 UTC] PHP Fatal error:  Class 'User' not found in /home/villa047/public_html/bandbase/storage/framework/views/f6cc650abac791dac560019f170c4ae5 on line 37
+[28-Mar-2015 03:39:52 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in /home/villa047/public_html/bandbase/app/Banda.php on line 23
