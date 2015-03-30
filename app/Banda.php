@@ -18,7 +18,7 @@ class Banda extends Model {
 	 */
 	protected $fillable = ['nome', 'data_criacao'];
 
-	protected $guarded = ['id']
+	protected $guarded = ['id'];
 
 	public function integrantes()
 	{

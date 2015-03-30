@@ -33,8 +33,17 @@
 										Não há integrantes =(
 									@else
 										@foreach( $integrantes as $integrante )
-											{{ $integrante }}
-											<h4>{{ $integrante->name }}</h4>
+                                            {{ $integrante }}
+                                            <?php
+
+                                            echo DB::table('bandas_users')
+                                            ->join('cargos', 'bandas_users.id_cargos', '=', 'cargos.id')
+                                            ->select('cargos.descricao')
+                                            ->where('bandas_users.id_bandas', '=', 1)
+                                            ->get();
+
+                                            ?>
+                                            <h4>{{ $integrante->name }}</h4>
 										@endforeach
 									@endif
 							</div>
