@@ -11,21 +11,17 @@
 
 					<div>
 						<ul class="nav nav-pills">
-							<li class="active"><a href="#nome" data-toggle="pill">Nome</a></li>
-							<li><a href="#data" data-toggle="pill">Data de Formação</a></li>
+							<li class="active"><a href="#dados" data-toggle="pill">Dados Gerais</a></li>
 							<li><a href="#integrantes" data-toggle="pill">Integrantes</a></li>
 						</ul>
 						<div class="tab-content">
-							<div id="nome" class="tab-pane active">
-								<h3>
-									{{ $banda->nome }}
-								</h3>
-							</div>
-
-							<div id="data" class="tab-pane">
-								<h3>
-									{{ date("d/m/Y",strtotime($banda->data_criacao)) }}
-								</h3>
+							<div id="dados" class="tab-pane active">
+								<h4>
+									Nome: {{ $banda->nome }}
+								</h4>
+                                <h4>
+									Data: {{ date("d/m/Y",strtotime($banda->data_criacao)) }}
+								</h4>
 							</div>
 
 							<div id="integrantes" class="tab-pane">
@@ -33,17 +29,12 @@
 										Não há integrantes =(
 									@else
 										@foreach( $integrantes as $integrante )
-                                            {{ $integrante }}
                                             <?php
 
-                                            echo DB::table('bandas_users')
-                                            ->join('cargos', 'bandas_users.id_cargos', '=', 'cargos.id')
-                                            ->select('cargos.descricao')
-                                            ->where('bandas_users.id_bandas', '=', 1)
-                                            ->get();
+                                            $cargo = $integrante->buscarCargo();
 
                                             ?>
-                                            <h4>{{ $integrante->name }}</h4>
+                                            <h4>{{ $integrante->name }}</h4>({{ $cargo->descricao }})
 										@endforeach
 									@endif
 							</div>

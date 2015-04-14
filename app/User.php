@@ -38,4 +38,15 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 		return $this->belongsToMany('App\Banda', 'bandas_users', 'id_bandas', 'id_users', 'id_cargos');
 	}
 
+    public function buscarCargo()
+    {
+        $cargo = DB::table('bandas_users')
+            ->join('cargos', 'bandas_users.id_cargos', '=', 'cargos.id')
+            ->select('cargos.descricao')
+            ->where('bandas_users.id_bandas', '=', $this->id)
+            ->first();
+
+        return $cargo;
+    }
+
 }
