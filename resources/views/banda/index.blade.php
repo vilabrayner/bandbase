@@ -11,11 +11,9 @@
 					@if (count($bandas) == 0)
 						Você não integra nenhuma banda =(
 					@else
-						<ul class="list-group">
-				            @foreach( $bandas as $banda )
-				                <li class="list-group-item"><a href="{{ route('banda.show', [$banda->nome]) }}">{{ $banda->nome }}</a></li>
-				            @endforeach
-				        </ul>
+						@foreach( $bandas as $banda )
+                            <a class="btn btn-primary" href="{{ route('banda.show', [$banda->nome]) }}">{{ $banda->nome }}</a>
+                        @endforeach
 					@endif
 
 					<hr>

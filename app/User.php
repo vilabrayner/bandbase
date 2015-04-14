@@ -40,7 +40,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 
     public function buscarCargo()
     {
-        $cargo = DB::table('bandas_users')
+        $cargo = \DB::table('bandas_users')
             ->join('cargos', 'bandas_users.id_cargos', '=', 'cargos.id')
             ->select('cargos.descricao')
             ->where('bandas_users.id_bandas', '=', $this->id)
